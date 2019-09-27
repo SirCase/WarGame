@@ -7,29 +7,26 @@ var GAME = {
   level : 1
 };
 
-var SPACE_SHIP = {
-  initialized : false,
-  bullets : [],
-  latest : {
-    x : 50,
-    y : 50,
-    xx : 5,
-    yy : 2
-  }
+var AIRPLANE = {
+  x : 0,
+  y : 0
 };
 
-var pipe =
-{
-  x : 600,
-  y : 0
-}
-var W = {
-  x : 1,
-  y : 1
+var TOWER1 = {
+  width : 75,
+  x : 0,
+  height : 0
 };
- var GENERAL_BIRD = {
-  x : 100,
-  y : 50,
-  radius: 25,
+var TOWER2 = {
+  width : 75,
+  x : 0,
+  height : 0
+};
+var TOWER3 = {
+  width : 75,
+  x : 0,
+  height : 0
+};
+var GENERAL = {
+
 }
-var forward = true;
